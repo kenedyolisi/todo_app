@@ -1,0 +1,27 @@
+{
+  "name": "todo-list",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "packageManager": "pnpm@8.15.5+sha256.4b4efa12490e5055d59b9b9fc9438b7d581a6b7af3b5675eb5c5f447cee1a589",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.json"
+  },
+  "dependencies": {
+    "svelte": "^4.2.12",
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^3.0.2",
+    "@tsconfig/svelte": "^5.0.2",
+    "autoprefixer": "^10.4.19",
+    "sass": "^1.72.0",
+    "svelte-check": "^3.6.7",
+    "tslib": "^2.6.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
