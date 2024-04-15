@@ -1,8 +1,6 @@
-import App from "@components/app.svelte";
+import App from "./components/app.svelte";
 import { mount } from "svelte";
 
-const app = mount(App, {
+export default mount(App, {
   target: document.getElementById("app")!,
 });
-
-export default app;
