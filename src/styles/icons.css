@@ -18,3 +18,11 @@
 .icon-trash {
   mask-image: url(/src/images/trash.svg);
 }
+
+.icon-calendar {
+  mask-image: url(/src/images/calendar.svg);
+}
+
+.icon-priority {
+  mask-image: url(/src/images/priority.svg);
+}
