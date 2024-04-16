@@ -1,0 +1,28 @@
+.icon {
+  display: inline-block;
+  @apply min-w-4 min-h-4 align-middle;
+  mask-size: 100% 100%;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  background-color: currentColor;
+}
+
+.icon-plus {
+  mask-image: url(/src/images/plus.svg);
+}
+
+.icon-pencil {
+  mask-image: url(/src/images/pencil.svg);
+}
+
+.icon-trash {
+  mask-image: url(/src/images/trash.svg);
+}
+
+.icon-calendar {
+  mask-image: url(/src/images/calendar.svg);
+}
+
+.icon-priority {
+  mask-image: url(/src/images/priority.svg);
+}
