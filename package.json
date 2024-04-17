@@ -11,18 +11,14 @@
     "preview": "astro preview"
   },
   "dependencies": {
+    "@astrojs/svelte": "^5.4.0",
     "astro": "^4.6.2",
     "date-fns": "^3.6.0",
     "svelte": "5.0.0-next.107",
     "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
-    "@astrojs/svelte": "^5.4.0",
-    "@tsconfig/svelte": "^5.0.4",
     "autoprefixer": "^10.4.19",
-    "svelte-check": "^3.6.9",
-    "tslib": "^2.6.2",
-    "typescript": "^5.4.5",
-    "vite": "^5.2.9"
+    "typescript": "^5.4.5"
   }
 }
