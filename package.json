@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@astrojs/svelte": "^5.4.0",
+    "@astrojs/tailwind": "^5.1.0",
     "astro": "^4.6.2",
     "date-fns": "^3.6.0",
     "svelte": "5.0.0-next.107",

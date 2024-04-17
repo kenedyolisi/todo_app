@@ -11,6 +11,9 @@ importers:
       '@astrojs/svelte':
         specifier: ^5.4.0
         version: 5.4.0(astro@4.6.2(sass@1.75.0)(typescript@5.4.5))(svelte@5.0.0-next.107)(typescript@5.4.5)(vite@5.2.9(sass@1.75.0))
+      '@astrojs/tailwind':
+        specifier: ^5.1.0
+        version: 5.1.0(astro@4.6.2(sass@1.75.0)(typescript@5.4.5))(tailwindcss@3.4.3)
       astro:
         specifier: ^4.6.2
         version: 4.6.2(sass@1.75.0)(typescript@5.4.5)
@@ -61,6 +64,12 @@ packages:
       astro: ^4.0.0
       svelte: ^4.0.0 || ^5.0.0-next.90
       typescript: ^5.3.3
+
+  '@astrojs/tailwind@5.1.0':
+    resolution: {integrity: sha512-BJoCDKuWhU9FT2qYg+fr6Nfb3qP4ShtyjXGHKA/4mHN94z7BGcmauQK23iy+YH5qWvTnhqkd6mQPQ1yTZTe9Ig==}
+    peerDependencies:
+      astro: ^3.0.0 || ^4.0.0
+      tailwindcss: ^3.0.24
 
   '@astrojs/telemetry@3.1.0':
     resolution: {integrity: sha512-/ca/+D8MIKEC8/A9cSaPUqQNZm+Es/ZinRv0ZAzvu2ios7POQSsVD+VOj7/hypWNsNM3T7RpfgNq7H2TU1KEHA==}
@@ -2226,6 +2235,16 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
       - vite
+
+  '@astrojs/tailwind@5.1.0(astro@4.6.2(sass@1.75.0)(typescript@5.4.5))(tailwindcss@3.4.3)':
+    dependencies:
+      astro: 4.6.2(sass@1.75.0)(typescript@5.4.5)
+      autoprefixer: 10.4.19(postcss@8.4.38)
+      postcss: 8.4.38
+      postcss-load-config: 4.0.2(postcss@8.4.38)
+      tailwindcss: 3.4.3
+    transitivePeerDependencies:
+      - ts-node
 
   '@astrojs/telemetry@3.1.0':
     dependencies:
