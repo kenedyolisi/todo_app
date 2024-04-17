@@ -5,10 +5,10 @@
   "type": "module",
   "packageManager": "pnpm@9.0.0+sha256.bdfc9a7b372b5c462176993e586492603e20da5864d2f8881edc2462482c76fa",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "dependencies": {
     "astro": "^4.6.2",
