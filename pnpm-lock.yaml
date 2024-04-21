@@ -33,9 +33,6 @@ importers:
         specifier: ^3.4.3
         version: 3.4.3
     devDependencies:
-      autoprefixer:
-        specifier: ^10.4.19
-        version: 10.4.19(postcss@8.4.38)
       typescript:
         specifier: ^5.4.5
         version: 5.4.5
