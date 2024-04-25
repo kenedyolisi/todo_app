@@ -6,8 +6,8 @@
 interface Todo {
   name: string;
   id: number;
-  dueDate: Date;
-  priority: "high" | "medium" | "low";
+  dueDate?: Date;
+  priority?: "high" | "medium" | "low";
   completed: boolean;
-  notes: string;
+  notes?: string;
 }
