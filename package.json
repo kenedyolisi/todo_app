@@ -21,7 +21,7 @@
     "@astrojs/vercel": "^7.4.0",
     "astro": "^4.6.2",
     "date-fns": "^3.6.0",
-    "svelte": "5.0.0-next.101",
+    "svelte": "5.0.0-next.121",
     "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
