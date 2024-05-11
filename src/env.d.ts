@@ -2,8 +2,9 @@
 /// <reference path="../.astro/types.d.ts" />
 /// <reference types="astro/client" />
 /// <reference types="vitest" />
+/// <reference types="svelte" />
 
-interface Todo {
+interface Task {
   name: string;
   id: number;
   dueDate?: Date;
