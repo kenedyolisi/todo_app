@@ -1,6 +1,12 @@
 import { db, Task } from "astro:db";
 
-export async function addTask() {}
+export async function addTask(task: Task) {
+  try {
+    await db.insert(Task).values([task]);
+  } catch (error) {
+    console.log("Database error", error);
+  }
+}
 
 export async function updateTask() {}
 
