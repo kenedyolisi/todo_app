@@ -1,8 +1,8 @@
 ---
-import Tasks from "@components/tasks.svelte";
+import TasksList from "@components/tasks_list.svelte";
 import Layout from "@layouts/layout.astro";
 ---
 
-<Layout>
-  <Tasks client:only="svelte" />
+<Layout title="Tasks">
+  <TasksList client:only="svelte" />
 </Layout>
