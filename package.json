@@ -3,26 +3,29 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "pnpm@9.0.0+sha256.bdfc9a7b372b5c462176993e586492603e20da5864d2f8881edc2462482c76fa",
+  "packageManager": "pnpm@9.0.6+sha256.0624e30eff866cdeb363b15061bdb7fd9425b17bc1bb42c22f5f4efdea21f6b3",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "check": "svelte-check --tsconfig ./tsconfig.json"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "vitest"
   },
   "dependencies": {
+    "@astrojs/db": "^0.10.4",
+    "@astrojs/svelte": "^5.4.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "@astrojs/vercel": "^7.4.0",
+    "astro": "^4.6.2",
     "date-fns": "^3.6.0",
-    "svelte": "5.0.0-next.105",
+    "svelte": "5.0.0-next.121",
     "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^3.1.0",
-    "@tsconfig/svelte": "^5.0.4",
-    "autoprefixer": "^10.4.19",
-    "sass": "^1.75.0",
-    "svelte-check": "^3.6.9",
-    "tslib": "^2.6.2",
     "typescript": "^5.4.5",
-    "vite": "^5.2.9"
+    "vitest": "^1.5.0"
   }
 }

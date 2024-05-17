@@ -26,3 +26,6 @@
 .icon-priority {
   mask-image: url(/src/images/priority.svg);
 }
+.icon-close {
+  mask-image: url(/src/images/close.svg);
+}
