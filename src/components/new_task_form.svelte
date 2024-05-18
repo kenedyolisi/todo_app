@@ -1,24 +1,30 @@
 <script lang="ts">
-  let taskName = $state("");
-  let dueDate: Date | undefined = $state(undefined);
-  let priority: "high" | "medium" | "low" | undefined = $state();
-  let taskNotes = $state("");
+  import { Date } from "svelte/reactivity";
 
-  let newTask: Todo = $derived({
-    name: taskName,
-    dueDate: dueDate ? new Date(dueDate) : undefined,
-    priority: priority,
-    notes: taskNotes,
-  });
+  let name = $state("");
+  let dueDate: Date | undefined = $state();
+  let priority: "high" | "medium" | "low" | undefined = $state();
+  let notes = $state("");
 
   let dialogElement: HTMLDialogElement;
-  let showDialog = $state(false);
+  let formElement: HTMLFormElement;
 
-  interface Props {
-    addTask: (task: Todo) => void;
+  async function submit(
+    event: SubmitEvent & { currentTarget: EventTarget & HTMLFormElement }
+  ) {
+    event.preventDefault();
+
+    const formData = new FormData(event.currentTarget);
+    const response = await fetch(location.href + "api/add_task", {
+      method: "POST",
+      body: formData,
+    });
+    const data = await response.json();
+    const responseMessage = data.message;
+    console.log(responseMessage);
+    formElement.reset();
+    dialogElement.close();
   }
-
-  let { addTask }: Props = $props();
 </script>
 
 <button
@@ -26,7 +32,6 @@
   type="button"
   onclick={() => {
     dialogElement.showModal();
-    showDialog = true;
   }}
 >
   <span class="icon icon-plus w-6 h-6"></span>
@@ -37,15 +42,21 @@
   class={`w-3/4 min-w-fit max-w-2xl p-4 backdrop:bg-black/40 rounded-lg transition-transform duration-400  scale-0 open:scale-100`}
   bind:this={dialogElement}
 >
-  <form class="space-y-3" method="dialog" onsubmit={() => addTask(newTask)}>
+  <form
+    class="space-y-3 z-10 backdrop:bg-slate-600"
+    method="post"
+    onsubmit={submit}
+    autocomplete="off"
+    bind:this={formElement}
+  >
     <div
       class="flex flex-col md:flex-row items-start md:items-center gap-3 md:gap-0"
     >
       <label class="w-2/5" for="new-task">New task:</label>
       <input
         class="block w-full py-2 px-4 border rounded-md border-gray-200 focus:outline-blue-500"
-        id="new-task"
-        bind:value={taskName}
+        name="name"
+        bind:value={name}
         type="text"
         placeholder="Task"
         autocomplete="off"
@@ -59,7 +70,7 @@
       <label class="w-2/5" for="due-date">Due date:</label>
       <input
         class="w-full py-2 px-4 border rounded-md border-gray-200 focus:outline-blue-500 focus:caret-blue-500"
-        id="due-date"
+        name="due-date"
         type="date"
         bind:value={dueDate}
       />
@@ -82,7 +93,6 @@
         </label>
         <label class="w-2/5">
           <input
-            class=""
             name="priority"
             value="medium"
             type="radio"
@@ -108,16 +118,15 @@
       <label class="w-2/5" for="task-notes">Notes:</label>
       <textarea
         class="w-full py-2 px-4 border rounded-md border-gray-200 focus:outline-blue-500 focus:caret-blue-500"
-        id="task-notes"
-        bind:value={taskNotes}
-      />
+        name="notes"
+        bind:value={notes}
+      ></textarea>
     </div>
-
     <div class="flex gap-4">
       <button
         class="w-full py-2 px-3 border border-red-600 rounded-md hover:bg-red-600 text-red-600 hover:text-white"
         type="reset"
-        on:click={() => dialogElement.close("task not added")}
+        onclick={() => dialogElement.close("task not added")}
       >
         Cancel
       </button>

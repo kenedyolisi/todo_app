@@ -26,3 +26,15 @@
 .icon-priority {
   mask-image: url(/src/images/priority.svg);
 }
+
+.icon-close {
+  mask-image: url(/src/images/close.svg);
+}
+
+.icon-info {
+  mask-image: url(/src/images/info.svg);
+}
+
+.icon-sticky-note {
+  mask-image: url(/src/images/sticky_note.svg);
+}
