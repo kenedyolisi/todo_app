@@ -123,7 +123,7 @@ dist
 
 ## Astro build / generate output
 dist/
-.astro
+.astro/
 
 ## Vuepress build output
 .vuepress/dist
