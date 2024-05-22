@@ -8,5 +8,5 @@ export default {
       screens: { xs: "512px" },
     },
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 } satisfies Config;
