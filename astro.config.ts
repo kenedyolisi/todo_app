@@ -10,7 +10,7 @@ export default defineConfig({
   adapter: vercel(),
   integrations: [
     db(),
-    svelte({ compilerOptions: { runes: true } }),
+    svelte(),
     tailwind({
       applyBaseStyles: false,
       nesting: true,
