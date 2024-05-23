@@ -4,7 +4,7 @@
   export let tasks: Task[];
 </script>
 
-{#if tasks}
+{#if tasks.length}
   <ul>
     {#each tasks as task}
       <Todo {task} />
