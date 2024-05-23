@@ -1,0 +1,14 @@
+---
+import TaskList from "@components/task_list.svelte";
+import Layout from "@layouts/layout.astro";
+import { getTasks } from "db/actions";
+
+const tasks = await getTasks();
+---
+
+<Layout title="Tasks">
+  <main class="p-8">
+    <h1 class="text-4xl font-bold">Tasks</h1>
+    <TaskList client:load {tasks} />
+  </main>
+</Layout>
