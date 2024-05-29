@@ -11,7 +11,11 @@ export default defineConfig({
   redirects: { "/": "/tasks" },
   integrations: [
     db(),
-    svelte(),
+    svelte({
+      compilerOptions: {
+        runes: true,
+      },
+    }),
     tailwind({
       applyBaseStyles: false,
       nesting: true,
