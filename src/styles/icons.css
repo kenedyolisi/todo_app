@@ -67,6 +67,18 @@
   mask-image: url(/src/images/menu.svg);
 }
 
+.icon-spinner-dots {
+  mask-image: url(/src/images/spinner_dots.svg);
+}
+
 .icon-sticky-note {
   mask-image: url(/src/images/sticky_note.svg);
+}
+
+.icon-chevron-down {
+  mask-image: url(/src/images/chevron_down.svg);
+}
+
+.icon-theme {
+  mask-image: url(/src/images/theme.svg);
 }
