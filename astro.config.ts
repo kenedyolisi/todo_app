@@ -8,9 +8,14 @@ import { defineConfig } from "astro/config";
 export default defineConfig({
   output: "server",
   adapter: vercel(),
+  redirects: { "/": "/tasks" },
   integrations: [
     db(),
-    svelte({ compilerOptions: { runes: true } }),
+    svelte({
+      compilerOptions: {
+        runes: true,
+      },
+    }),
     tailwind({
       applyBaseStyles: false,
       nesting: true,

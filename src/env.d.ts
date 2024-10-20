@@ -7,7 +7,7 @@
 interface Task {
   name: string;
   id: number;
-  dueDate?: Date;
+  due?: Date;
   priority?: "high" | "medium" | "low";
   completed: boolean;
   notes?: string;

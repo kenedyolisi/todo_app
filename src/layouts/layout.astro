@@ -1,5 +1,7 @@
 ---
+import Navbar from "@components/navbar.svelte";
 import "@styles/global.css";
+import { ViewTransitions } from "astro:transitions";
 
 interface Props {
   title: string;
@@ -13,10 +15,14 @@ const { title }: Props = Astro.props;
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <ViewTransitions />
 
     <title>{title}</title>
   </head>
   <body class="bg-gray-100 text-slate-900 dark:bg-slate-900 dark:text-gray-100">
-    <slot />
+    <div class="flex">
+      <Navbar client:load />
+      <slot />
+    </div>
   </body>
 </html>

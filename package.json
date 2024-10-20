@@ -1,11 +1,11 @@
 {
-  "name": "todo-list",
+  "name": "todo-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "pnpm@9.0.0+sha256.bdfc9a7b372b5c462176993e586492603e20da5864d2f8881edc2462482c76fa",
+  "packageManager": "pnpm@9.12.0+sha512.4abf725084d7bcbafbd728bfc7bee61f2f791f977fd87542b3579dcb23504d170d46337945e4c66485cd12d588a0c0e570ed9c477e7ccdd8507cf05f3f92eaca",
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=20.x"
   },
   "scripts": {
     "dev": "astro dev",
@@ -18,21 +18,16 @@
     "@astrojs/db": "^0.10.7",
     "@astrojs/svelte": "^5.4.0",
     "@astrojs/tailwind": "^5.1.0",
-    "@astrojs/vercel": "^7.7.2",
-    "astro": "^4.7.1",
+    "@astrojs/vercel": "^7.6.0",
+    "@tailwindcss/forms": "^0.5.7",
+    "astro": "^4.16.0",
     "date-fns": "^3.6.0",
-    "svelte": "5.0.0-next.225",
-    "tailwindcss": "^3.4.10"
+    "svelte": "5.0.0",
+    "tailwindcss": "^3.4.3"
   },
   "devDependencies": {
-    "vitest": "^1.6.0",
-    "@sveltejs/vite-plugin-svelte": "^3.1.0",
-    "@tsconfig/svelte": "^5.0.4",
-    "autoprefixer": "^10.4.19",
-    "sass": "^1.77.2",
-    "svelte-check": "^3.8.6",
-    "tslib": "^2.6.3",
     "typescript": "^5.4.5",
-    "vite": "^5.4.2"
+    "vite": "^5.2.11",
+    "vitest": "^1.6.0"
   }
 }

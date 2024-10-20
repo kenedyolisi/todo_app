@@ -19,8 +19,32 @@
   mask-image: url(/src/images/trash.svg);
 }
 
+.icon-home {
+  mask-image: url(/src/images/home.svg);
+}
+
+.icon-home-fill {
+  mask-image: url(/src/images/home_fill.svg);
+}
+
+.icon-gear {
+  mask-image: url(/src/images/gear.svg);
+}
+
+.icon-gear-fill {
+  mask-image: url(/src/images/gear_fill.svg);
+}
+
 .icon-calendar {
   mask-image: url(/src/images/calendar.svg);
+}
+
+.icon-today {
+  mask-image: url(/src/images/today.svg);
+}
+
+.icon-today-fill {
+  mask-image: url(/src/images/today_fill.svg);
 }
 
 .icon-priority {
@@ -35,6 +59,26 @@
   mask-image: url(/src/images/info.svg);
 }
 
+.icon-search {
+  mask-image: url(/src/images/search.svg);
+}
+
+.icon-menu {
+  mask-image: url(/src/images/menu.svg);
+}
+
+.icon-spinner-dots {
+  mask-image: url(/src/images/spinner_dots.svg);
+}
+
 .icon-sticky-note {
   mask-image: url(/src/images/sticky_note.svg);
+}
+
+.icon-chevron-down {
+  mask-image: url(/src/images/chevron_down.svg);
+}
+
+.icon-theme {
+  mask-image: url(/src/images/theme.svg);
 }
