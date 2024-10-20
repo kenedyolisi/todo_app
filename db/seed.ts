@@ -1,4 +1,4 @@
-import { db, tasks } from "astro:db";
+import { db, Tasks } from "astro:db";
 import { addDays, subDays } from "date-fns";
 
 /**
@@ -6,7 +6,7 @@ import { addDays, subDays } from "date-fns";
  */
 export default async function seed() {
   try {
-    await db.insert(tasks).values([
+    await db.insert(Tasks).values([
       {
         name: "Pay Electricity bills",
         due: new Date(),

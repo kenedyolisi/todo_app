@@ -2,7 +2,7 @@
 
 import { column, defineDb, defineTable } from "astro:db";
 
-const tasks = defineTable({
+const Tasks = defineTable({
   columns: {
     id: column.number({ primaryKey: true, unique: true }),
     title: column.text({ unique: true }),
@@ -14,5 +14,5 @@ const tasks = defineTable({
 });
 
 export default defineDb({
-  tables: { tasks },
+  tables: { Tasks },
 });
