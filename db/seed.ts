@@ -8,25 +8,25 @@ export default async function seed() {
   try {
     await db.insert(Tasks).values([
       {
-        name: "Pay Electricity bills",
+        title: "Pay Electricity bills",
         due: new Date(),
         priority: "high",
         completed: true,
       },
       {
-        name: "Mow lawn",
+        title: "Mow lawn",
         due: subDays(new Date(), 1),
         priority: "low",
       },
       {
-        name: "File tasks returns",
+        title: "File tasks returns",
         due: addDays(new Date(), 2),
       },
       {
-        name: "Visit grandpa",
+        title: "Visit grandpa",
       },
       {
-        name: "Mark Computer Studies tests",
+        title: "Mark Computer Studies tests",
         due: addDays(new Date(), 1),
         priority: "low",
       },
