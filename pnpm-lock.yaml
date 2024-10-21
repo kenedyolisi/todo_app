@@ -13,7 +13,7 @@ importers:
         version: 0.14.0(kysely@0.27.4)(react@18.3.1)
       '@astrojs/svelte':
         specifier: ^5.7.2
-        version: 5.7.2(astro@4.16.0(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(svelte@5.0.0)(typescript@5.4.5)(vite@5.2.14(@types/node@20.12.12))
+        version: 5.7.2(astro@4.16.0(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(svelte@5.0.4)(typescript@5.4.5)(vite@5.2.14(@types/node@20.12.12))
       '@astrojs/tailwind':
         specifier: ^5.1.0
         version: 5.1.0(astro@4.16.0(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(tailwindcss@3.4.14)
@@ -30,8 +30,8 @@ importers:
         specifier: ^4.1.0
         version: 4.1.0
       svelte:
-        specifier: ^5.0.0
-        version: 5.0.0
+        specifier: ^5.0.4
+        version: 5.0.4
       tailwindcss:
         specifier: ^3.4.14
         version: 3.4.14
@@ -742,9 +742,6 @@ packages:
     resolution: {integrity: sha512-R8gLRTZeyp03ymzP/6Lil/28tGeGEzhx1q2k703KGWRAI1VdvPIXdG70VJc2pAMw3NA6JKL5hhFu1sJX0Mnn/A==}
     engines: {node: '>=6.0.0'}
 
-  '@jridgewell/sourcemap-codec@1.4.15':
-    resolution: {integrity: sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==}
-
   '@jridgewell/sourcemap-codec@1.5.0':
     resolution: {integrity: sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ==}
 
@@ -976,9 +973,6 @@ packages:
   '@types/debug@4.1.12':
     resolution: {integrity: sha512-vIChWdVG3LG1SMxEvI/AK+FWJthlrqlTu7fbrlywTkkaONwk/UAGaULXRlf8vkzFBLVm0zkMdCquhL5aOjhXPQ==}
 
-  '@types/estree@1.0.5':
-    resolution: {integrity: sha512-/kYRxGDLWzHOB7q+wtSUQlFrtcdUccpfy+X+9iMBpHK8QLLhx2wIPYuS5DYtR9Wa/YlZAbIovy7qVdB1Aq6Lyw==}
-
   '@types/estree@1.0.6':
     resolution: {integrity: sha512-AYnb1nQyY49te+VRAVgmzfcgjYS91mY5P0TKUDCLEM+gNnA+3T6rWITXRLYCpahpqSQbN5cE+gHpnPyXjHWxcw==}
 
@@ -1056,11 +1050,6 @@ packages:
   acorn-walk@8.3.2:
     resolution: {integrity: sha512-cjkyv4OtNCIeqhHrfS81QWXoCBPExR/J62oyEqepVw8WaQeSqpW2uhuLPh1m9eWhDuOo/jUXVTlifvesOWp/4A==}
     engines: {node: '>=0.4.0'}
-
-  acorn@8.11.3:
-    resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
-    engines: {node: '>=0.4.0'}
-    hasBin: true
 
   acorn@8.13.0:
     resolution: {integrity: sha512-8zSiw54Oxrdym50NlZ9sUusyO1Z1ZchgRLWRaK6c86XJFClyCgFKetdowBg5bKxyp/u+CDBJG4Mpp0m3HLZl9w==}
@@ -2672,8 +2661,8 @@ packages:
       svelte: ^3.55 || ^4.0.0-next.0 || ^4.0 || ^5.0.0-next.0
       typescript: ^4.9.4 || ^5.0.0
 
-  svelte@5.0.0:
-    resolution: {integrity: sha512-jv2IvTtakG58DqZMo6fY3T6HFmGV4iDQH2lSUyfmCEYaoa+aCNcF+9rERbdDvT4XDF0nQBg6TEoJn0dirED8VQ==}
+  svelte@5.0.4:
+    resolution: {integrity: sha512-W22OPqEIhHGqYjW2XnESTZoHvJdNCEr5oGDE8WoRKB37dQCywM5Bv7I2uN4A0FWhBnV7NxWK4MZwPKW2AVm19Q==}
     engines: {node: '>=18'}
 
   tailwindcss@3.4.14:
@@ -3129,12 +3118,12 @@ snapshots:
       kleur: 4.1.5
       ora: 8.1.0
 
-  '@astrojs/svelte@5.7.2(astro@4.16.0(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(svelte@5.0.0)(typescript@5.4.5)(vite@5.2.14(@types/node@20.12.12))':
+  '@astrojs/svelte@5.7.2(astro@4.16.0(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(svelte@5.0.4)(typescript@5.4.5)(vite@5.2.14(@types/node@20.12.12))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 3.1.2(svelte@5.0.0)(vite@5.2.14(@types/node@20.12.12))
+      '@sveltejs/vite-plugin-svelte': 3.1.2(svelte@5.0.4)(vite@5.2.14(@types/node@20.12.12))
       astro: 4.16.0(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5)
-      svelte: 5.0.0
-      svelte2tsx: 0.7.22(svelte@5.0.0)(typescript@5.4.5)
+      svelte: 5.0.4
+      svelte2tsx: 0.7.22(svelte@5.0.4)(typescript@5.4.5)
       typescript: 5.4.5
     transitivePeerDependencies:
       - supports-color
@@ -3623,14 +3612,12 @@ snapshots:
 
   '@jridgewell/set-array@1.2.1': {}
 
-  '@jridgewell/sourcemap-codec@1.4.15': {}
-
   '@jridgewell/sourcemap-codec@1.5.0': {}
 
   '@jridgewell/trace-mapping@0.3.25':
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
-      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/sourcemap-codec': 1.5.0
 
   '@libsql/client@0.10.0':
     dependencies:
@@ -3812,24 +3799,24 @@ snapshots:
 
   '@sinclair/typebox@0.27.8': {}
 
-  '@sveltejs/vite-plugin-svelte-inspector@2.1.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0)(vite@5.2.14(@types/node@20.12.12)))(svelte@5.0.0)(vite@5.2.14(@types/node@20.12.12))':
+  '@sveltejs/vite-plugin-svelte-inspector@2.1.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.4)(vite@5.2.14(@types/node@20.12.12)))(svelte@5.0.4)(vite@5.2.14(@types/node@20.12.12))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte': 3.1.2(svelte@5.0.0)(vite@5.2.14(@types/node@20.12.12))
+      '@sveltejs/vite-plugin-svelte': 3.1.2(svelte@5.0.4)(vite@5.2.14(@types/node@20.12.12))
       debug: 4.3.7
-      svelte: 5.0.0
+      svelte: 5.0.4
       vite: 5.2.14(@types/node@20.12.12)
     transitivePeerDependencies:
       - supports-color
 
-  '@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0)(vite@5.2.14(@types/node@20.12.12))':
+  '@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.4)(vite@5.2.14(@types/node@20.12.12))':
     dependencies:
-      '@sveltejs/vite-plugin-svelte-inspector': 2.1.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.0)(vite@5.2.14(@types/node@20.12.12)))(svelte@5.0.0)(vite@5.2.14(@types/node@20.12.12))
+      '@sveltejs/vite-plugin-svelte-inspector': 2.1.0(@sveltejs/vite-plugin-svelte@3.1.2(svelte@5.0.4)(vite@5.2.14(@types/node@20.12.12)))(svelte@5.0.4)(vite@5.2.14(@types/node@20.12.12))
       debug: 4.3.7
       deepmerge: 4.3.1
       kleur: 4.1.5
       magic-string: 0.30.12
-      svelte: 5.0.0
-      svelte-hmr: 0.16.0(svelte@5.0.0)
+      svelte: 5.0.4
+      svelte-hmr: 0.16.0(svelte@5.0.4)
       vite: 5.2.14(@types/node@20.12.12)
       vitefu: 0.2.5(vite@5.2.14(@types/node@20.12.12))
     transitivePeerDependencies:
@@ -3866,8 +3853,6 @@ snapshots:
   '@types/debug@4.1.12':
     dependencies:
       '@types/ms': 0.7.34
-
-  '@types/estree@1.0.5': {}
 
   '@types/estree@1.0.6': {}
 
@@ -3909,8 +3894,8 @@ snapshots:
     dependencies:
       '@mapbox/node-pre-gyp': 1.0.11
       '@rollup/pluginutils': 4.2.1
-      acorn: 8.11.3
-      acorn-import-attributes: 1.9.5(acorn@8.11.3)
+      acorn: 8.13.0
+      acorn-import-attributes: 1.9.5(acorn@8.13.0)
       async-sema: 3.1.1
       bindings: 1.5.0
       estree-walker: 2.0.2
@@ -3937,7 +3922,7 @@ snapshots:
 
   '@vitest/snapshot@1.6.0':
     dependencies:
-      magic-string: 0.30.10
+      magic-string: 0.30.12
       pathe: 1.1.2
       pretty-format: 29.7.0
 
@@ -3954,17 +3939,15 @@ snapshots:
 
   abbrev@1.1.1: {}
 
-  acorn-import-attributes@1.9.5(acorn@8.11.3):
+  acorn-import-attributes@1.9.5(acorn@8.13.0):
     dependencies:
-      acorn: 8.11.3
+      acorn: 8.13.0
 
   acorn-typescript@1.4.13(acorn@8.13.0):
     dependencies:
       acorn: 8.13.0
 
   acorn-walk@8.3.2: {}
-
-  acorn@8.11.3: {}
 
   acorn@8.13.0: {}
 
@@ -4473,7 +4456,7 @@ snapshots:
 
   estree-walker@3.0.3:
     dependencies:
-      '@types/estree': 1.0.5
+      '@types/estree': 1.0.6
 
   eventemitter3@5.0.1: {}
 
@@ -4881,7 +4864,7 @@ snapshots:
 
   magic-string@0.30.10:
     dependencies:
-      '@jridgewell/sourcemap-codec': 1.4.15
+      '@jridgewell/sourcemap-codec': 1.5.0
 
   magic-string@0.30.12:
     dependencies:
@@ -5249,7 +5232,7 @@ snapshots:
 
   mlly@1.7.0:
     dependencies:
-      acorn: 8.11.3
+      acorn: 8.13.0
       pathe: 1.1.2
       pkg-types: 1.1.1
       ufo: 1.5.3
@@ -5826,18 +5809,18 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  svelte-hmr@0.16.0(svelte@5.0.0):
+  svelte-hmr@0.16.0(svelte@5.0.4):
     dependencies:
-      svelte: 5.0.0
+      svelte: 5.0.4
 
-  svelte2tsx@0.7.22(svelte@5.0.0)(typescript@5.4.5):
+  svelte2tsx@0.7.22(svelte@5.0.4)(typescript@5.4.5):
     dependencies:
       dedent-js: 1.0.1
       pascal-case: 3.1.2
-      svelte: 5.0.0
+      svelte: 5.0.4
       typescript: 5.4.5
 
-  svelte@5.0.0:
+  svelte@5.0.4:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@jridgewell/sourcemap-codec': 1.5.0
