@@ -13,19 +13,22 @@ importers:
         version: 0.14.0(kysely@0.27.4)(react@18.3.1)
       '@astrojs/svelte':
         specifier: ^5.7.2
-        version: 5.7.2(astro@4.16.6(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(svelte@5.0.5)(typescript@5.4.5)(vite@5.4.9(@types/node@20.12.12))
+        version: 5.7.2(astro@4.16.7(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(svelte@5.0.5)(typescript@5.4.5)(vite@5.4.9(@types/node@20.12.12))
       '@astrojs/tailwind':
         specifier: ^5.1.2
-        version: 5.1.2(astro@4.16.6(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(tailwindcss@3.4.14)
+        version: 5.1.2(astro@4.16.7(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(tailwindcss@3.4.14)
       '@astrojs/vercel':
         specifier: ^7.8.2
-        version: 7.8.2(astro@4.16.6(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(react@18.3.1)
+        version: 7.8.2(astro@4.16.7(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(react@18.3.1)
       '@tailwindcss/container-queries':
         specifier: ^0.1.1
         version: 0.1.1(tailwindcss@3.4.14)
+      '@tailwindcss/forms':
+        specifier: ^0.5.7
+        version: 0.5.9(tailwindcss@3.4.14)
       astro:
-        specifier: ^4.16.6
-        version: 4.16.6(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5)
+        specifier: ^4.16.7
+        version: 4.16.7(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5)
       better-auth:
         specifier: 0.5.3-beta.2
         version: 0.5.3-beta.2(react@18.3.1)(solid-js@1.9.2)(vue@3.5.12(typescript@5.4.5))
@@ -959,6 +962,11 @@ packages:
     peerDependencies:
       tailwindcss: '>=3.2.0'
 
+  '@tailwindcss/forms@0.5.9':
+    resolution: {integrity: sha512-tM4XVr2+UVTxXJzey9Twx48c1gcxFStqn1pQz0tRsX8o3DvxhN5oY5pvyAbUx7VTaZxpej4Zzvc6h+1RJBzpIg==}
+    peerDependencies:
+      tailwindcss: '>=3.0.0 || >= 3.0.0-alpha.1 || >= 4.0.0-alpha.20'
+
   '@tybys/wasm-util@0.8.3':
     resolution: {integrity: sha512-Z96T/L6dUFFxgFJ+pQtkPpne9q7i6kIPYCFnQBHSgSPV9idTsKfIhCss0h5iM9irweZCatkrdeP8yi5uM1eX6Q==}
 
@@ -1161,8 +1169,8 @@ packages:
   assertion-error@1.1.0:
     resolution: {integrity: sha512-jgsaNduz+ndvGyFt3uSuWqvy4lCnIJiovtouQN5JZHOKCS2QuhEdbcQHFhVksz2N2U9hXJo8odG7ETyWlEeuDw==}
 
-  astro@4.16.6:
-    resolution: {integrity: sha512-LMMbjr+4aN26MOyJzTdjM+Y+srpAIkx7IX9IcdF3eHQLGr8PgkioZp+VQExRfioDIyA2HY6ottVg3QccTzJqYA==}
+  astro@4.16.7:
+    resolution: {integrity: sha512-nON+8MUEkWTFwXbS4zsQIq4t0Fs42eulM4x236AL+qNnWfqNAOOqAnFxO1dxfJ1q+XopIBbbT9Mtev+0zH47PQ==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0, npm: '>=9.6.5', pnpm: '>=7.1.0'}
     hasBin: true
 
@@ -2164,6 +2172,10 @@ packages:
     resolution: {integrity: sha512-VP79XUPxV2CigYP3jWwAUFSku2aKqBH7uTAapFWCBqutsbmDo96KY5o8uh6U+/YSIn5OxJnXp73beVkpqMIGhA==}
     engines: {node: '>=18'}
 
+  mini-svg-data-uri@1.4.4:
+    resolution: {integrity: sha512-r9deDe9p5FJUPZAk3A59wGH7Ii9YrjjWw0jmw/liSbHl2CHiyXj6FcDXDu2K3TjVAXqiJdaw3xxwlZZr9E6nHg==}
+    hasBin: true
+
   minimatch@3.1.2:
     resolution: {integrity: sha512-J7p63hRiAjw1NDEww1W7i37+ByIrOWO5XQQAzZ3VOcL0PNybwpfmV/N05zFAzwQ9USyEcX6t3UO+K5aqBQOIHw==}
 
@@ -3159,10 +3171,10 @@ snapshots:
       kleur: 4.1.5
       ora: 8.1.0
 
-  '@astrojs/svelte@5.7.2(astro@4.16.6(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(svelte@5.0.5)(typescript@5.4.5)(vite@5.4.9(@types/node@20.12.12))':
+  '@astrojs/svelte@5.7.2(astro@4.16.7(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(svelte@5.0.5)(typescript@5.4.5)(vite@5.4.9(@types/node@20.12.12))':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 3.1.2(svelte@5.0.5)(vite@5.4.9(@types/node@20.12.12))
-      astro: 4.16.6(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5)
+      astro: 4.16.7(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5)
       svelte: 5.0.5
       svelte2tsx: 0.7.22(svelte@5.0.5)(typescript@5.4.5)
       typescript: 5.4.5
@@ -3170,9 +3182,9 @@ snapshots:
       - supports-color
       - vite
 
-  '@astrojs/tailwind@5.1.2(astro@4.16.6(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(tailwindcss@3.4.14)':
+  '@astrojs/tailwind@5.1.2(astro@4.16.7(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(tailwindcss@3.4.14)':
     dependencies:
-      astro: 4.16.6(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5)
+      astro: 4.16.7(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5)
       autoprefixer: 10.4.20(postcss@8.4.47)
       postcss: 8.4.47
       postcss-load-config: 4.0.2(postcss@8.4.47)
@@ -3192,13 +3204,13 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@astrojs/vercel@7.8.2(astro@4.16.6(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(react@18.3.1)':
+  '@astrojs/vercel@7.8.2(astro@4.16.7(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(react@18.3.1)':
     dependencies:
       '@astrojs/internal-helpers': 0.4.1
       '@vercel/analytics': 1.3.1(react@18.3.1)
       '@vercel/edge': 1.1.2
       '@vercel/nft': 0.27.5
-      astro: 4.16.6(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5)
+      astro: 4.16.7(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5)
       esbuild: 0.21.5
       fast-glob: 3.3.2
       web-vitals: 3.5.2
@@ -3979,6 +3991,11 @@ snapshots:
     dependencies:
       tailwindcss: 3.4.14
 
+  '@tailwindcss/forms@0.5.9(tailwindcss@3.4.14)':
+    dependencies:
+      mini-svg-data-uri: 1.4.4
+      tailwindcss: 3.4.14
+
   '@tybys/wasm-util@0.8.3':
     dependencies:
       tslib: 2.8.0
@@ -4222,7 +4239,7 @@ snapshots:
 
   assertion-error@1.1.0: {}
 
-  astro@4.16.6(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5):
+  astro@4.16.7(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5):
     dependencies:
       '@astrojs/compiler': 2.10.3
       '@astrojs/internal-helpers': 0.4.1
@@ -5428,6 +5445,8 @@ snapshots:
   mimic-fn@4.0.0: {}
 
   mimic-function@5.0.1: {}
+
+  mini-svg-data-uri@1.4.4: {}
 
   minimatch@3.1.2:
     dependencies:
