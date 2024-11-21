@@ -12,8 +12,8 @@ importers:
         specifier: ^0.14.0
         version: 0.14.0(kysely@0.27.4)(react@18.3.1)
       '@astrojs/svelte':
-        specifier: ^5.7.2
-        version: 5.7.2(astro@4.16.13(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(svelte@5.0.5)(typescript@5.4.5)(vite@5.4.11(@types/node@20.12.12))
+        specifier: ^5.7.3
+        version: 5.7.3(astro@4.16.13(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(svelte@5.0.5)(typescript@5.4.5)(vite@5.4.11(@types/node@20.12.12))
       '@astrojs/tailwind':
         specifier: ^5.1.2
         version: 5.1.2(astro@4.16.13(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(tailwindcss@3.4.15)
@@ -87,8 +87,8 @@ packages:
   '@astrojs/studio@0.1.1':
     resolution: {integrity: sha512-X4PxYQZmkXhgw9rlNKVeCzU6q+U9Cy3k3J5oP4jOTmqTE8TyjCadAad3NweDJCY9Rhgv/w+qhGfjl2JG2lcTaw==}
 
-  '@astrojs/svelte@5.7.2':
-    resolution: {integrity: sha512-d3nfPe7OMoDqdw7SXfvYlyCSB4p84p92IIvEsu5E1jDPFbS1mlC76hjAlr0nJHQfV1MZPWifEmmfgDBWLCuS8g==}
+  '@astrojs/svelte@5.7.3':
+    resolution: {integrity: sha512-0PAwn2KLVpGsJppG8dWM1P9+/VrjAdhMWgEgwC1PjY2xFG565bTw7OuGaS5zh5Fu4AcjVoBkVQKjW/N3mLnrJA==}
     engines: {node: ^18.17.1 || ^20.3.0 || >=21.0.0}
     peerDependencies:
       astro: ^4.0.0
@@ -2968,7 +2968,7 @@ snapshots:
       kleur: 4.1.5
       ora: 8.1.0
 
-  '@astrojs/svelte@5.7.2(astro@4.16.13(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(svelte@5.0.5)(typescript@5.4.5)(vite@5.4.11(@types/node@20.12.12))':
+  '@astrojs/svelte@5.7.3(astro@4.16.13(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(svelte@5.0.5)(typescript@5.4.5)(vite@5.4.11(@types/node@20.12.12))':
     dependencies:
       '@sveltejs/vite-plugin-svelte': 3.1.2(svelte@5.0.5)(vite@5.4.11(@types/node@20.12.12))
       astro: 4.16.13(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5)
