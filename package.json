@@ -21,7 +21,7 @@
     "@astrojs/vercel": "^7.8.2",
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/forms": "^0.5.7",
-    "astro": "^4.16.8",
+    "astro": "^4.16.13",
     "better-auth": "0.8.8",
     "bits-ui": "^0.21.16",
     "date-fns": "^4.1.0",
