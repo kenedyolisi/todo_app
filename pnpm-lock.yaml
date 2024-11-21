@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@astrojs/db':
-        specifier: ^0.14.0
-        version: 0.14.0(kysely@0.27.4)(react@18.3.1)
+        specifier: ^0.14.3
+        version: 0.14.3(kysely@0.27.4)(react@18.3.1)
       '@astrojs/svelte':
         specifier: ^5.7.3
         version: 5.7.3(astro@4.16.13(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(svelte@5.0.5)(typescript@5.4.5)(vite@5.4.11(@types/node@20.12.12))
@@ -71,8 +71,8 @@ packages:
   '@astrojs/compiler@2.10.3':
     resolution: {integrity: sha512-bL/O7YBxsFt55YHU021oL+xz+B/9HvGNId3F9xURN16aeqDK9juHGktdkCSXz+U4nqFACq6ZFvWomOzhV+zfPw==}
 
-  '@astrojs/db@0.14.0':
-    resolution: {integrity: sha512-8If3Z0FN2Mdto/jrKGQ4sisrO/rpGdteogPmZCjvTnSzNo5GECFBkxflpOyWX4Xw9qaU865f1BeDgGdU27xeXg==}
+  '@astrojs/db@0.14.3':
+    resolution: {integrity: sha512-GL7JvdZfTfelH0MSJcgF2zKnOAhCkzAgQlz2LhKZ0YqgJTk+5/5lMsFQtSynJ/CwRKO2XQjop1pvMl6F9XKCNw==}
 
   '@astrojs/internal-helpers@0.4.1':
     resolution: {integrity: sha512-bMf9jFihO8YP940uD70SI/RDzIhUHJAolWVcO1v5PUivxGKvfLZTLTVVxEYzGYyPsA3ivdLNqMnL5VgmQySa+g==}
@@ -496,11 +496,11 @@ packages:
   '@levischuck/tiny-cbor@0.2.2':
     resolution: {integrity: sha512-f5CnPw997Y2GQ8FAvtuVVC19FX8mwNNC+1XJcIi16n/LTJifKO6QBgGLgN3YEmqtGMk17SKSuoWES3imJVxAVw==}
 
-  '@libsql/client@0.10.0':
-    resolution: {integrity: sha512-2ERn08T4XOVx34yBtUPq0RDjAdd9TJ5qNH/izugr208ml2F94mk92qC64kXyDVQINodWJvp3kAdq6P4zTtCZ7g==}
+  '@libsql/client@0.14.0':
+    resolution: {integrity: sha512-/9HEKfn6fwXB5aTEEoMeFh4CtG0ZzbncBb1e++OCdVpgKZ/xyMsIVYXm0w7Pv4RUel803vE6LwniB3PqD72R0Q==}
 
-  '@libsql/core@0.10.0':
-    resolution: {integrity: sha512-rqynAXGaiSpTsykOZdBtI1N4z4O+KZ6mt33K/aHeXAY0gSIfK/ctxuWa0Y1Bjo4FMz1idBTCXz4Ps5kITOvZZw==}
+  '@libsql/core@0.14.0':
+    resolution: {integrity: sha512-nhbuXf7GP3PSZgdCY2Ecj8vz187ptHlZQ0VRc751oB2C1W8jQUXKKklvt7t1LJiUTQBVJuadF628eUk+3cRi4Q==}
 
   '@libsql/darwin-arm64@0.4.6':
     resolution: {integrity: sha512-45i604CJ2Lubbg7NqtDodjarF6VgST8rS5R8xB++MoRqixtDns9PZ6tocT9pRJDWuTWEiy2sjthPOFWMKwYAsg==}
@@ -512,11 +512,12 @@ packages:
     cpu: [x64]
     os: [darwin]
 
-  '@libsql/hrana-client@0.6.2':
-    resolution: {integrity: sha512-MWxgD7mXLNf9FXXiM0bc90wCjZSpErWKr5mGza7ERy2FJNNMXd7JIOv+DepBA1FQTIfI8TFO4/QDYgaQC0goNw==}
+  '@libsql/hrana-client@0.7.0':
+    resolution: {integrity: sha512-OF8fFQSkbL7vJY9rfuegK1R7sPgQ6kFMkDamiEccNUvieQ+3urzfDFI616oPl8V7T9zRmnTkSjMOImYCAVRVuw==}
 
-  '@libsql/isomorphic-fetch@0.2.1':
-    resolution: {integrity: sha512-Sv07QP1Aw8A5OOrmKgRUBKe2fFhF2hpGJhtHe3d1aRnTESZCGkn//0zDycMKTGamVWb3oLYRroOsCV8Ukes9GA==}
+  '@libsql/isomorphic-fetch@0.3.1':
+    resolution: {integrity: sha512-6kK3SUK5Uu56zPq/Las620n5aS9xJq+jMBcNSOmjhNf/MUvdyji4vrMTqD7ptY7/4/CAVEAYDeotUz60LNQHtw==}
+    engines: {node: '>=18.0.0'}
 
   '@libsql/isomorphic-ws@0.1.5':
     resolution: {integrity: sha512-DtLWIH29onUYR00i0GlQ3UdcTRC6EP4u9w/h9LxpUZJWRMARk6dQwZ6Jkd+QdwVpuAOrdxt18v0K2uIYR3fwFg==}
@@ -2164,10 +2165,6 @@ packages:
     resolution: {integrity: sha512-mnkeQ1qP5Ue2wd+aivTD3NHd/lZ96Lu0jgf0pwktLPtx6cTZiH7tyeGRRHs0zX0rbrahXPnXlUnbeXyaBBuIaw==}
     engines: {node: '>=18'}
 
-  ora@8.1.0:
-    resolution: {integrity: sha512-GQEkNkH/GHOhPFXcqZs3IDahXEQcQxsSjEkK4KvEEST4t7eNzoMjxTzef+EZ+JluDEV+Raoi3WQ2CflnRdSVnQ==}
-    engines: {node: '>=18'}
-
   ora@8.1.1:
     resolution: {integrity: sha512-YWielGi1XzG1UTvOaCFaNgEnuhZVMSHYkW/FQ7UX8O26PtlpdM84c0f7wLPlkvx2RfiQmnzd61d/MGxmpQeJPw==}
     engines: {node: '>=18'}
@@ -2886,20 +2883,19 @@ snapshots:
 
   '@astrojs/compiler@2.10.3': {}
 
-  '@astrojs/db@0.14.0(kysely@0.27.4)(react@18.3.1)':
+  '@astrojs/db@0.14.3(kysely@0.27.4)(react@18.3.1)':
     dependencies:
       '@astrojs/studio': 0.1.1
-      '@libsql/client': 0.10.0
+      '@libsql/client': 0.14.0
       async-listen: 3.0.1
       deep-diff: 1.0.2
-      drizzle-orm: 0.31.4(@libsql/client@0.10.0)(kysely@0.27.4)(react@18.3.1)
+      drizzle-orm: 0.31.4(@libsql/client@0.14.0)(kysely@0.27.4)(react@18.3.1)
       github-slugger: 2.0.0
       kleur: 4.1.5
       nanoid: 5.0.7
       open: 10.1.0
-      ora: 8.1.0
+      ora: 8.1.1
       prompts: 2.4.2
-      strip-ansi: 7.1.0
       yargs-parser: 21.1.1
       zod: 3.23.8
     transitivePeerDependencies:
@@ -2966,7 +2962,7 @@ snapshots:
     dependencies:
       ci-info: 4.0.0
       kleur: 4.1.5
-      ora: 8.1.0
+      ora: 8.1.1
 
   '@astrojs/svelte@5.7.3(astro@4.16.13(@types/node@20.12.12)(rollup@4.24.0)(typescript@5.4.5))(svelte@5.0.5)(typescript@5.4.5)(vite@5.4.11(@types/node@20.12.12))':
     dependencies:
@@ -3343,10 +3339,10 @@ snapshots:
 
   '@levischuck/tiny-cbor@0.2.2': {}
 
-  '@libsql/client@0.10.0':
+  '@libsql/client@0.14.0':
     dependencies:
-      '@libsql/core': 0.10.0
-      '@libsql/hrana-client': 0.6.2
+      '@libsql/core': 0.14.0
+      '@libsql/hrana-client': 0.7.0
       js-base64: 3.7.7
       libsql: 0.4.6
       promise-limit: 2.7.0
@@ -3354,7 +3350,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@libsql/core@0.10.0':
+  '@libsql/core@0.14.0':
     dependencies:
       js-base64: 3.7.7
 
@@ -3364,9 +3360,9 @@ snapshots:
   '@libsql/darwin-x64@0.4.6':
     optional: true
 
-  '@libsql/hrana-client@0.6.2':
+  '@libsql/hrana-client@0.7.0':
     dependencies:
-      '@libsql/isomorphic-fetch': 0.2.1
+      '@libsql/isomorphic-fetch': 0.3.1
       '@libsql/isomorphic-ws': 0.1.5
       js-base64: 3.7.7
       node-fetch: 3.3.2
@@ -3374,7 +3370,7 @@ snapshots:
       - bufferutil
       - utf-8-validate
 
-  '@libsql/isomorphic-fetch@0.2.1': {}
+  '@libsql/isomorphic-fetch@0.3.1': {}
 
   '@libsql/isomorphic-ws@0.1.5':
     dependencies:
@@ -4283,9 +4279,9 @@ snapshots:
 
   dlv@1.1.3: {}
 
-  drizzle-orm@0.31.4(@libsql/client@0.10.0)(kysely@0.27.4)(react@18.3.1):
+  drizzle-orm@0.31.4(@libsql/client@0.14.0)(kysely@0.27.4)(react@18.3.1):
     optionalDependencies:
-      '@libsql/client': 0.10.0
+      '@libsql/client': 0.14.0
       kysely: 0.27.4
       react: 18.3.1
 
@@ -5185,18 +5181,6 @@ snapshots:
       define-lazy-prop: 3.0.0
       is-inside-container: 1.0.0
       is-wsl: 3.1.0
-
-  ora@8.1.0:
-    dependencies:
-      chalk: 5.3.0
-      cli-cursor: 5.0.0
-      cli-spinners: 2.9.2
-      is-interactive: 2.0.0
-      is-unicode-supported: 2.0.0
-      log-symbols: 6.0.0
-      stdin-discarder: 0.2.2
-      string-width: 7.2.0
-      strip-ansi: 7.1.0
 
   ora@8.1.1:
     dependencies:
