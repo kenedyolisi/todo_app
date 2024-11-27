@@ -25,7 +25,7 @@
     "better-auth": "0.8.8",
     "bits-ui": "^0.21.16",
     "date-fns": "^4.1.0",
-    "svelte": "^5.0.5",
+    "svelte": "^5.2.7",
     "tailwindcss": "^3.4.15",
     "zod": "^3.23.8"
   },
